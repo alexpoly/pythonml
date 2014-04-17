@@ -1,9 +1,6 @@
 import numpy as np
-from sklearn import grid_search
-from sklearn import cross_validation as cv
-from sklearn.svm import SVC
 from sklearn.decomposition import PCA
-from sklearn.cross_validation import StratifiedKFold
+
 
 x=np.arange(1,100,0.01)
 y=5+x+sin(x)/2
